@@ -1,0 +1,8 @@
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.deps.json
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.runtimeconfig.json
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.runtimeconfig.dev.json
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.AssemblyInfo.cs
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
+c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb

@@ -1,0 +1,233 @@
+@model IEnumerable<SOSTrucksMonitor.web.Models.TruckMonitorDTO> 
+@{
+    ViewBag.Title = "Trucks Monitor";
+}
+
+<h2>Trucks Monitor</h2>
+
+@section css {
+<link rel="stylesheet" href="~/css/expandedTable.css" asp-append-version="true" />
+}
+
+  <!-- Container -->
+<div class="container">
+    <!-- Table -->
+    <div class="tabular-data module">
+        <!-- Table Head -->
+        <div class="data-group data-header hidden-sm hidden-xs">
+            <div class="row">
+                <div class="col-lg-1 col-md-1">
+                    <strong class="uppercase">Truck #</strong>
+                </div>
+
+                <div class="col-lg-1 col-md-1">
+                    <strong class="uppercase">Ref #</strong>
+                </div>
+
+                <div class="col-lg-2 col-md-1">
+                    <strong class="uppercase">From</strong>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <strong class="uppercase">Progress Status</strong>
+                </div>
+
+                <div class="col-lg-2 col-md-1">
+                    <strong class="uppercase">To</strong>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <strong class="uppercase">Status</strong>
+                </div>
+            </div>
+        </div>
+        <!-- Table Head -->
+
+        @foreach (var truck in Model)
+        {
+        <!-- Table Row -->
+        <div class="data-group">
+            <div class="row">
+                <div class="data-expands">
+                    <div class="col-lg-1 col-md-1">
+                        <b>@truck.TruckNumber</b>
+                    </div>
+                    <div class="col-lg-1 col-md-1">
+                        @truck.CustomerReference
+                    </div>
+
+                    <div class="col-lg-2 col-md-1">
+                        @truck.From
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                50%
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-1">
+                        @truck.To
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="red uppercase">
+                            <strong><i class="fa fa-road"></i> In-transit</strong>
+                            -
+                            <strong><i class="fa fa-clock-o"></i> Next load Waiting</strong>
+                            <span class="row-toggle">
+                                <span class="horizontal"></span>
+                                <span class="vertical"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expandable">
+                    <!-- Detail Row -->
+                    <div class="row">
+
+                        <div class="col-lg-2 col-md-1">
+                            <div class="detail-data">
+                                <strong>TRAILER / DRIVER</strong>
+                                <div>
+                                    <i class="mdi mdi-truck-trailer" aria-hidden="true"></i>  <strong>3384</strong>
+                                </div>
+                                <div>
+                                    <i class="fa fa-user"></i>  @truck.Driver.Name
+                                </div>
+                                <div>
+                                    <i class="fa fa-phone"></i>  239-234-9970
+                                </div>
+
+                                <div>
+                                    <i class="fa fa-building"></i>  Miami, FL
+                                </div>
+
+
+
+                            </div>
+                            <div class="detail-action">
+                                <button class="btn btn-default btn-sm" type="button">
+                                    <i class="fa fa-phone"></i>
+                                    Check Calls
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-2 col-md-2 ">
+                            <div class="detail-data">
+                                <strong>PICK UPS</strong>
+                                <div> April 20, 2017 6:00 PM ET</div>
+                                <div>Direction Done</div>
+                                <div>App. Required</div>
+                            </div>
+
+                            <div class="detail-action">
+                                <!-- Actions button -->
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                       PickUp Actions <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Adjust ETA PickUp</a></li>
+                                        <li><a href="#">Sign PickUp</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-lg-1 col-md-2">
+                            <div class="detail-data">
+                                <strong>LOADS</strong>
+                                <div>
+                                    16,18
+                                </div>
+                                File# <strong>18</strong>
+                            </div>
+                            Other information
+                        </div>
+
+                        <div class="col-lg-2 col-md-1">
+                            <div class="detail-data">
+                                <strong>BROKER</strong>
+                                <div>
+                                    <i class="fa fa-truck"></i>  Scott Logistic Corp
+                                </div>
+
+                                <div>
+                                    <i class="fa fa-phone"></i> 305-593-1533
+                                </div>
+                            </div>
+                            Other information
+                        </div>
+
+                        <div class="col-lg-2 col-md-2 ">
+                            <div class="detail-data">
+                                <strong>ETA DELIVERY</strong>
+                                <div>
+                                    April 22, 2017 3:00 PM ET
+                                </div>
+                                <div>Direction Done</div>
+                            </div>
+
+                            <div class="detail-action">
+                                <!-- Actions button -->
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" 
+                                            aria-haspopup="true" aria-expanded="false">
+                                       ETA Delivery Actions <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Adjust ETA PickUp</a></li>
+                                        <li><a href="#">Sign PickUp</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="row">
+                                <div class="col-xs-12 visible-sm visible-xs"><hr></div>
+                                <div class="col-xs-6">Technician Labor</div>
+                                <div class="col-xs-6 text-right">2,400.00</div>
+                                <div class="col-xs-6">Parts</div>
+                                <div class="col-xs-6 text-right">4,500.00</div>
+                                <div class="col-xs-6">Inspection</div>
+                                <div class="col-xs-6 text-right">400.00</div>
+                                <div class="col-xs-12"><hr></div>
+                                <div class="col-xs-6">Total</div>
+                                <div class="col-xs-6 text-right">$7,300.00</div>
+                                <div class="col-xs-12"><hr></div>
+                                <div class="col-xs-6"><a href="#" class="btn btn-black"><i class="fa fa-phone"></i> Contact</a></div>
+                                <div class="col-xs-6 text-right"><a href="#" class="btn btn-green"><i class="fa fa-check-circle-o"></i> Approve</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        }
+
+
+    </div>
+    <!-- Table -->
+</div>
+<!-- Container -->
+
+@section scripts
+{
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="~/js/expandedTable.js" asp-append-version="true"></script>
+}
