@@ -14,3 +14,4 @@ c:\Dev\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.ap
 c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.AssemblyInfo.cs
 c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
 c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.csprojResolveAssemblyReference.cache

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOSTrucksMonitor.api", "SOS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOSTrucksMonitor.web", "SOSTrucksMonitor.web\SOSTrucksMonitor.web.csproj", "{EC967BEB-0A61-4F99-B8B1-ADE0A6BF7A76}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SOSMonitor.DataBase", "SOSMonitor\SOSMonitor.DataBase.sqlproj", "{35D30497-B6BE-4283-80C2-A2664B4467FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,24 @@ Global
 		{EC967BEB-0A61-4F99-B8B1-ADE0A6BF7A76}.Release|x64.Build.0 = Release|Any CPU
 		{EC967BEB-0A61-4F99-B8B1-ADE0A6BF7A76}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC967BEB-0A61-4F99-B8B1-ADE0A6BF7A76}.Release|x86.Build.0 = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|x64.Build.0 = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|x86.Build.0 = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|x64.ActiveCfg = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|x64.Build.0 = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|x64.Deploy.0 = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|x86.Build.0 = Release|Any CPU
+		{35D30497-B6BE-4283-80C2-A2664B4467FA}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

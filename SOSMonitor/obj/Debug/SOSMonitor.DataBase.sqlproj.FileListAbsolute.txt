@@ -1,0 +1,5 @@
+C:\WorkSpace\Git\Concepts\SOSMonitor\bin\Debug\SOSMonitor.DataBase.dacpac
+C:\WorkSpace\Git\Concepts\SOSMonitor\bin\Debug\SOSMonitor.dll
+C:\WorkSpace\Git\Concepts\SOSMonitor\bin\Debug\SOSMonitor.pdb
+C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\SOSMonitor.dll
+C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\SOSMonitor.pdb

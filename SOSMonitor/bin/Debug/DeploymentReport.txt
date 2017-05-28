@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Broker] (Table)
+       [dbo].[DeliveryAttributeStatus] (Table)
+       [dbo].[Driver] (Table)
+       [dbo].[Load] (Table)
+       [dbo].[PickUpAttributeStatus] (Table)
+       [dbo].[TrucksMonitor] (Table)
+       [dbo].[FK_Broker_TrucksMonitor] (Foreign Key)
+       [dbo].[FK_DeliveryAttributeStatus_TrucksMonitor] (Foreign Key)
+       [dbo].[FK_Driver_TrucksMonitor] (Foreign Key)
+       [dbo].[FK_Load_TrucksMonitor] (Foreign Key)
+       [dbo].[FK_PickUpAttributeStatus_TrucksMonitor] (Foreign Key)
+
+** Supporting actions

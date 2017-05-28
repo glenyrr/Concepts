@@ -122,7 +122,7 @@
                             <div class="detail-data">
                                 <strong>PICK UPS</strong>
                                 <div> @truck.PickUp.Date </div>
-                                @foreach(string log in truck.PickUp.Log)
+                                @foreach(var log in truck.PickUp.Log)
                                 {
                                      <div>@log</div>
                                 }
@@ -150,7 +150,7 @@
                         <div class="col-lg-1 col-md-2">
                             <div class="detail-data">
                                 <strong>LOADS</strong>
-                                @foreach(string load in truck.Load.Loads)
+                                @foreach(var load in truck.Load.Loads)
                                 {
                                 <div>
                                     @load
@@ -179,9 +179,13 @@
                             <div class="detail-data">
                                 <strong>ETA DELIVERY</strong>
                                 <div>
-                                    April 22, 2017 3:00 PM ET
+                                    @truck.Delivery.Date
                                 </div>
-                                <div>Direction Done</div>
+                                @foreach (var log in truck.Delivery.Log)
+                                {
+                                    <div>@log</div>
+                                }
+                                
                             </div>
 
                             <div class="detail-action">
