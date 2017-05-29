@@ -7,3 +7,12 @@ C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucks
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.dll
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.pdb
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.csprojResolveAssemblyReference.cache
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.web.deps.json
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.web.runtimeconfig.json
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.web.runtimeconfig.dev.json
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.web.dll
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.web.pdb
+C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.csprojResolveAssemblyReference.cache
+C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.AssemblyInfo.cs
+C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.dll
+C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.pdb

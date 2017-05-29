@@ -6,3 +6,11 @@ c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucks
 c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.AssemblyInfo.cs
 c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
 c:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb
+c:\Dev\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.deps.json
+c:\Dev\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.runtimeconfig.json
+c:\Dev\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.runtimeconfig.dev.json
+c:\Dev\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
+c:\Dev\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb
+c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.AssemblyInfo.cs
+c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
+c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb

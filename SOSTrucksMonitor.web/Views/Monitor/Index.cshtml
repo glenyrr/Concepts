@@ -93,17 +93,17 @@
                             <div class="detail-data">
                                 <strong>TRAILER / DRIVER</strong>
                                 <div>
-                                    <i class="mdi mdi-truck-trailer" aria-hidden="true"></i>  <strong>3384</strong>
+                                    <i class="mdi mdi-truck-trailer" aria-hidden="true"></i>  <strong>@truck.TrailerNumber</strong>
                                 </div>
                                 <div>
                                     <i class="fa fa-user"></i>  @truck.Driver.Name
                                 </div>
                                 <div>
-                                    <i class="fa fa-phone"></i>  239-234-9970
+                                    <i class="fa fa-phone"></i>  @truck.Driver.PhoneNumber
                                 </div>
 
                                 <div>
-                                    <i class="fa fa-building"></i>  Miami, FL
+                                    <i class="fa fa-building"></i> @truck.BaseCity
                                 </div>
 
 
@@ -121,9 +121,11 @@
                         <div class="col-lg-2 col-md-2 ">
                             <div class="detail-data">
                                 <strong>PICK UPS</strong>
-                                <div> April 20, 2017 6:00 PM ET</div>
-                                <div>Direction Done</div>
-                                <div>App. Required</div>
+                                <div> @truck.PickUp.Date </div>
+                                @foreach(string log in truck.PickUp.Log)
+                                {
+                                     <div>@log</div>
+                                }
                             </div>
 
                             <div class="detail-action">
@@ -148,10 +150,13 @@
                         <div class="col-lg-1 col-md-2">
                             <div class="detail-data">
                                 <strong>LOADS</strong>
+                                @foreach(string load in truck.Load.Loads)
+                                {
                                 <div>
-                                    16,18
+                                    @load
                                 </div>
-                                File# <strong>18</strong>
+                                }
+                                File# <strong>@truck.Load.FileNumber</strong>
                             </div>
                             Other information
                         </div>
@@ -160,11 +165,11 @@
                             <div class="detail-data">
                                 <strong>BROKER</strong>
                                 <div>
-                                    <i class="fa fa-truck"></i>  Scott Logistic Corp
+                                    <i class="fa fa-truck"></i>  @truck.Broker.Name
                                 </div>
 
                                 <div>
-                                    <i class="fa fa-phone"></i> 305-593-1533
+                                    <i class="fa fa-phone"></i> @truck.Broker.PhoneNumber
                                 </div>
                             </div>
                             Other information
