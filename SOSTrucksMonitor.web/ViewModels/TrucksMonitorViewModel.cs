@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using SOSTrucksMonitor.web.Models;
+using SOSTrucksMonitor.Models;
 
 namespace SOSTrucksMonitor.web.ViewModels
 {
@@ -18,7 +18,7 @@ namespace SOSTrucksMonitor.web.ViewModels
             
             var newTruck = new TruckMonitorDTO();
             newTruck.LoadNumber = 948;
-            newTruck.Invoice = 948;
+            newTruck.Invoice = "948";
             newTruck.Date = DateTime.Now;
             newTruck.TruckNumber = "1019";
             newTruck.TrailerNumber = "1642";

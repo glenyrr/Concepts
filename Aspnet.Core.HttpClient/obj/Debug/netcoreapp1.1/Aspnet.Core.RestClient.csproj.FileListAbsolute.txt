@@ -1,0 +1,14 @@
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.deps.json
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.AssemblyInfo.cs
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\WorkSpace\Shared\ERP\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.deps.json
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.AssemblyInfo.cs
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb

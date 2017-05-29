@@ -60,7 +60,7 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="TrucksMonitor.sql" />
+    <Build Include="TruckMonitor.sql" />
     <Build Include="Driver.sql" />
     <Build Include="Broker.sql" />
     <Build Include="DeliveryAttributeStatus.sql" />

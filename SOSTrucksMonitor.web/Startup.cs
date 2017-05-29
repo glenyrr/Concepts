@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Aspnet.Core.RestClient;
+using SOSTrucksMonitor.web.AppServices;
 
 namespace SOSTrucksMonitor.web
 {
@@ -27,6 +29,8 @@ namespace SOSTrucksMonitor.web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IHttpClientRequest, HttpClientRequest>();
+            services.AddScoped<TrucksMonitorAppServices>();
             // Add framework services.
             services.AddMvc();
         }

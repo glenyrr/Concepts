@@ -1,0 +1,14 @@
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.deps.json
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.AssemblyInfo.cs
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+C:\WorkSpace\Shared\ERP\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.deps.json
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.AssemblyInfo.cs
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb

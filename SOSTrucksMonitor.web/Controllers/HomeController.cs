@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SOSTrucksMonitor.web.ViewModels;
+using SOSTrucksMonitor.web.AppServices;
 
 namespace SOSTrucksMonitor.web.Controllers
 {

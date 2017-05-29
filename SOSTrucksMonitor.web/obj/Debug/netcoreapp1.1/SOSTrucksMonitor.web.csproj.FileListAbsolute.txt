@@ -16,3 +16,7 @@ C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.we
 C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.dll
 C:\Dev\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.pdb
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.web.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSMonitor.Models.dll
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSMonitor.Models.pdb
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb

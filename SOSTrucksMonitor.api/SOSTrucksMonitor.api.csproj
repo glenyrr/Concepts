@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -18,10 +17,17 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Swashbuckle" Version="6.0.0-beta902" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspnet.Core.Data\Aspnet.Core.Data.csproj" />
+    <ProjectReference Include="..\Aspnet.Core.ThrowIf\Aspnet.Core.ThrowIf.csproj" />
+    <ProjectReference Include="..\SOSMonitor.Models\SOSMonitor.Models.csproj" />
   </ItemGroup>
 
 </Project>

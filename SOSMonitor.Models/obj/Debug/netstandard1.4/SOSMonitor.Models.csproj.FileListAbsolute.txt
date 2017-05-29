@@ -1,0 +1,7 @@
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\bin\Debug\netstandard1.4\SOSMonitor.Models.deps.json
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\bin\Debug\netstandard1.4\SOSMonitor.Models.dll
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\bin\Debug\netstandard1.4\SOSMonitor.Models.pdb
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.AssemblyInfo.cs
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.dll
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.pdb
+C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.csprojResolveAssemblyReference.cache

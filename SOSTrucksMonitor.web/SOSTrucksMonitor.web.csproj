@@ -14,4 +14,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspnet.Core.HttpClient\Aspnet.Core.RestClient.csproj" />
+    <ProjectReference Include="..\SOSMonitor.Models\SOSMonitor.Models.csproj" />
+  </ItemGroup>
+
 </Project>

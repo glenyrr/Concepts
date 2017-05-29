@@ -10,6 +10,6 @@ namespace SOSTrucksMonitor.api.Entities
         public string PhoneNumber { get; set; }
         public int? TrucksMonitorId { get; set; }
 
-        public virtual TrucksMonitor TrucksMonitor { get; set; }
+        public virtual TruckMonitor TruckMonitor { get; set; }
     }
 }

@@ -9,6 +9,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using SOSTrucksMonitor.api.Entities;
+using Aspnet.Core.Data;
+using SOSTrucksMonitor.api.Repositories;
+using SOSTrucksMonitor.api.Features.TrucksMonitor;
+using Swashbuckle.Swagger.Model;
 
 namespace SOSTrucksMonitor.api
 {
@@ -32,8 +36,21 @@ namespace SOSTrucksMonitor.api
 
             // Add framework services.
             services.AddDbContext<SOSMonitorContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SOSMonitorDatabase")));
+            services.AddScoped<DbContext, SOSMonitorContext>();
+            services.AddScoped<ITruckMonitorRepository, TruckMonitorRepository>();
+            services.AddScoped<TrucksMonitorAppService>();
 
-
+            services.AddSwaggerGen();
+            services.ConfigureSwaggerGen(options =>
+            {
+                options.SingleApiVersion(new Info
+                {
+                    Version = "v1",
+                    Title = "SOS Trucks Monitor Web API",
+                    Description = "Todos los metodos compartidos del API del Truck Monitor",
+                    TermsOfService = "Ninguno"
+                });
+            });
 
             services.AddMvc();
         }
@@ -43,6 +60,9 @@ namespace SOSTrucksMonitor.api
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+
+            app.UseSwagger();
+            app.UseSwaggerUi();
 
             app.UseMvc();
         }

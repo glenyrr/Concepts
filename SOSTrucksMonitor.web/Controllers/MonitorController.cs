@@ -4,16 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SOSTrucksMonitor.web.ViewModels;
+using SOSTrucksMonitor.web.AppServices;
 
 namespace SOSTrucksMonitor.web.Controllers
 {
     public class MonitorController : Controller
     {
-        public IActionResult Index()
-        {
-            var viewModel = new TrucksMonitorViewModel();
-            var model = viewModel.GetTrucks();
 
+        private TrucksMonitorAppServices _trucksMonitorAppServices;
+        public MonitorController(TrucksMonitorAppServices trucksMonitorAppServices)
+        {
+            _trucksMonitorAppServices = trucksMonitorAppServices;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+
+            var model = await _trucksMonitorAppServices.GetTrucksMonitor();
 
             return View(model);
         }

@@ -15,3 +15,9 @@ c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.ap
 c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.dll
 c:\Dev\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.pdb
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\obj\Debug\netcoreapp1.1\SOSTrucksMonitor.api.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSMonitor.Models.dll
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\SOSMonitor.Models.pdb
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb
+C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.api\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb

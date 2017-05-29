@@ -3,3 +3,7 @@ C:\WorkSpace\Git\Concepts\SOSMonitor\bin\Debug\SOSMonitor.dll
 C:\WorkSpace\Git\Concepts\SOSMonitor\bin\Debug\SOSMonitor.pdb
 C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\SOSMonitor.dll
 C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\SOSMonitor.pdb
+C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\Model.xml
+C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\refactor.xml
+C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\postdeploy.sql
+C:\WorkSpace\Git\Concepts\SOSMonitor\obj\Debug\predeploy.sql

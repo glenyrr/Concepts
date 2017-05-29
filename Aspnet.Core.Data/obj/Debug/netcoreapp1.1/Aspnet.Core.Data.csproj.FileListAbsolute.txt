@@ -1,0 +1,14 @@
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.deps.json
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.AssemblyInfo.cs
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb
+C:\WorkSpace\Shared\ERP\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.deps.json
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.csprojResolveAssemblyReference.cache
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.AssemblyInfo.cs
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb

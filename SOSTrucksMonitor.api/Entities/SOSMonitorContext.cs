@@ -11,7 +11,7 @@ namespace SOSTrucksMonitor.api.Entities
         public virtual DbSet<Driver> Driver { get; set; }
         public virtual DbSet<Load> Load { get; set; }
         public virtual DbSet<PickUpAttributeStatus> PickUpAttributeStatus { get; set; }
-        public virtual DbSet<TrucksMonitor> TrucksMonitor { get; set; }
+        public virtual DbSet<TruckMonitor> TruckMonitor { get; set; }
 
         public SOSMonitorContext(DbContextOptions<SOSMonitorContext> dbContextOptions)
             :base(dbContextOptions)
@@ -29,7 +29,7 @@ namespace SOSTrucksMonitor.api.Entities
 
                 entity.Property(e => e.PhoneNumber).HasColumnType("varchar(50)");
 
-                entity.HasOne(d => d.TrucksMonitor)
+                entity.HasOne(d => d.TruckMonitor)
                     .WithMany(p => p.Broker)
                     .HasForeignKey(d => d.TrucksMonitorId)
                     .HasConstraintName("FK_Broker_TrucksMonitor");
@@ -43,7 +43,7 @@ namespace SOSTrucksMonitor.api.Entities
 
                 entity.Property(e => e.Value).HasColumnType("varchar(50)");
 
-                entity.HasOne(d => d.TrucksMonitor)
+                entity.HasOne(d => d.TruckMonitor)
                     .WithMany(p => p.DeliveryAttributeStatus)
                     .HasForeignKey(d => d.TrucksMonitorId)
                     .HasConstraintName("FK_DeliveryAttributeStatus_TrucksMonitor");
@@ -57,7 +57,7 @@ namespace SOSTrucksMonitor.api.Entities
 
                 entity.Property(e => e.PhoneNumber).HasColumnType("varchar(50)");
 
-                entity.HasOne(d => d.TrucksMonitor)
+                entity.HasOne(d => d.TruckMonitor)
                     .WithMany(p => p.Driver)
                     .HasForeignKey(d => d.TrucksMonitorId)
                     .HasConstraintName("FK_Driver_TrucksMonitor");
@@ -71,7 +71,7 @@ namespace SOSTrucksMonitor.api.Entities
 
                 entity.Property(e => e.Value).HasColumnType("varchar(50)");
 
-                entity.HasOne(d => d.TrucksMonitor)
+                entity.HasOne(d => d.TruckMonitor)
                     .WithMany(p => p.Load)
                     .HasForeignKey(d => d.TrucksMonitorId)
                     .HasConstraintName("FK_Load_TrucksMonitor");
@@ -85,13 +85,13 @@ namespace SOSTrucksMonitor.api.Entities
 
                 entity.Property(e => e.Value).HasColumnType("varchar(50)");
 
-                entity.HasOne(d => d.TrucksMonitor)
+                entity.HasOne(d => d.TruckMonitor)
                     .WithMany(p => p.PickUpAttributeStatus)
                     .HasForeignKey(d => d.TrucksMonitorId)
                     .HasConstraintName("FK_PickUpAttributeStatus_TrucksMonitor");
             });
 
-            modelBuilder.Entity<TrucksMonitor>(entity =>
+            modelBuilder.Entity<TruckMonitor>(entity =>
             {
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
