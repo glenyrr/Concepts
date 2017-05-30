@@ -12,3 +12,10 @@ C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Cor
 C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.AssemblyInfo.cs
 C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
 C:\WorkSpace\Git\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.deps.json
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\bin\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.csprojResolveAssemblyReference.cache
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.AssemblyInfo.cs
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.dll
+c:\Dev\Concepts\Aspnet.Core.ThrowIf\obj\Debug\netcoreapp1.1\Aspnet.Core.ThrowIf.pdb

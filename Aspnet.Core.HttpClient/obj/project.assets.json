@@ -7340,19 +7340,22 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gleny\\.nuget\\packages\\": {}
+    "C:\\Users\\Salomon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkSpace\\Git\\Concepts\\Aspnet.Core.HttpClient\\Aspnet.Core.RestClient.csproj",
+      "projectUniqueName": "C:\\Dev\\Concepts\\Aspnet.Core.HttpClient\\Aspnet.Core.RestClient.csproj",
       "projectName": "Aspnet.Core.RestClient",
-      "projectPath": "C:\\WorkSpace\\Git\\Concepts\\Aspnet.Core.HttpClient\\Aspnet.Core.RestClient.csproj",
-      "outputPath": "C:\\WorkSpace\\Git\\Concepts\\Aspnet.Core.HttpClient\\obj\\",
+      "projectPath": "C:\\Dev\\Concepts\\Aspnet.Core.HttpClient\\Aspnet.Core.RestClient.csproj",
+      "outputPath": "C:\\Dev\\Concepts\\Aspnet.Core.HttpClient\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/Aspnet.Core.RestClient.dll": "C:\\Dev\\Concepts\\Aspnet.Core.HttpClient\\bin\\placeholder\\netcoreapp1.1\\Aspnet.Core.RestClient.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -7362,14 +7365,13 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "1.1.2"
+          },
           "System.Runtime.Serialization.Json": {
             "target": "Package",
             "version": "4.3.0"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
           }
         }
       }

@@ -7037,19 +7037,22 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gleny\\.nuget\\packages\\": {}
+    "C:\\Users\\Salomon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkSpace\\Git\\Concepts\\Aspnet.Core.ThrowIf\\Aspnet.Core.ThrowIf.csproj",
+      "projectUniqueName": "C:\\Dev\\Concepts\\Aspnet.Core.ThrowIf\\Aspnet.Core.ThrowIf.csproj",
       "projectName": "Aspnet.Core.ThrowIf",
-      "projectPath": "C:\\WorkSpace\\Git\\Concepts\\Aspnet.Core.ThrowIf\\Aspnet.Core.ThrowIf.csproj",
-      "outputPath": "C:\\WorkSpace\\Git\\Concepts\\Aspnet.Core.ThrowIf\\obj\\",
+      "projectPath": "C:\\Dev\\Concepts\\Aspnet.Core.ThrowIf\\Aspnet.Core.ThrowIf.csproj",
+      "outputPath": "C:\\Dev\\Concepts\\Aspnet.Core.ThrowIf\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/Aspnet.Core.ThrowIf.dll": "C:\\Dev\\Concepts\\Aspnet.Core.ThrowIf\\bin\\placeholder\\netcoreapp1.1\\Aspnet.Core.ThrowIf.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -7061,8 +7064,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
+            "version": "1.1.2"
           }
         }
       }

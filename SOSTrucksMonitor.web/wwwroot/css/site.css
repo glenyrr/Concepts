@@ -3,32 +3,44 @@
     padding-bottom: 20px;
 }
 
+
 /* Wrapping element */
+
+
 /* Set some basic padding to keep content from hitting the edges */
+
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
 
+
 /* Set widths on the form inputs since otherwise they're 100% wide */
+
 input,
 select,
 textarea {
     max-width: 280px;
 }
 
+
 /* Carousel */
+
 .carousel-caption p {
     font-size: 20px;
     line-height: 1.4;
 }
 
+
 /* Make .svg files in the carousel display properly in older browsers */
+
 .carousel-inner .item img[src$=".svg"] {
     width: 100%;
 }
 
+
 /* Hide/rearrange for smaller screens */
+
 @media screen and (max-width: 767px) {
     /* Hide captions */
     .carousel-caption {
@@ -36,34 +48,36 @@ textarea {
     }
 }
 
+
 /*Overide the BootStrap Style*/
 
-
 .navbar-inverse {
-    background-color: red;
-    border-color: red;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
 }
 
 .navbar-inverse .navbar-brand {
     color: #fff;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #333;
+}
+
 
 /* Page-leverl styles*/
 
-.truck-monitor > tr .truck-info {
+.truck-monitor>tr .truck-info {
     position: relative
 }
 
-.truck-monitor > tr .truck-status{
+.truck-monitor>tr .truck-status {
     position: relative
 }
 
-.truck-monitor > tr .truck-status {
+.truck-monitor>tr .truck-status {
     position: relative
 }
-
-
 
 .label-td {
     position: absolute;
@@ -75,19 +89,18 @@ textarea {
     top: 20px;
 }
 
+.truck-monitor>tr .truck-info .truck-number {
+    position: absolute;
+    top: -3px;
+    left: 70px;
+    font-size: large;
+}
 
-    .truck-monitor > tr .truck-info .truck-number {
-        position: absolute;
-        top: -3px;
-        left: 70px;
-        font-size: large;
-    }
-
-    .truck-monitor > tr .truck-info .trailer-number {
-        position: absolute;
-        top: 20px;
-        left: 70px;
-    }
+.truck-monitor>tr .truck-info .trailer-number {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
 
 #status-square {
     background: yellow;
@@ -109,12 +122,12 @@ textarea {
     left: 10px;
 }
 
-.truck-monitor > tr .truck-info .glyphicon {
+.truck-monitor>tr .truck-info .glyphicon {
     position: absolute;
     top: 42px;
 }
 
-.truck-monitor > tr .truck-info .truck-driver {
+.truck-monitor>tr .truck-info .truck-driver {
     position: absolute;
     top: 40px;
     left: 25px;
@@ -123,32 +136,31 @@ textarea {
 .status-date {
     position: absolute;
     top: 40px;
-    font-size:x-small;
+    font-size: x-small;
 }
 
 
 /* Useful stuff and generic styling */
 
-
 body {
-    font-family: "Open Sans",sans-serif;
-    color: inherit;
-    background: rgba(40,70,100,1);
+    font-family: "Open Sans", sans-serif;
+    background: #ecf0f1;
     font-size: 12px;
 }
 
 
 /*Reusable parts*/
+
 .module {
     margin-bottom: 2em;
-    background: rgba(255,255,255,1);
-    color: rgba(37,40,42,1);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(37, 40, 42, 1);
     float: left;
     width: 100%;
     height: 100%;
     border-radius: .2em;
 }
 
-    .module [class*='col-'] .inner {
-        padding: 2em 0;
-    }
+.module [class*='col-'] .inner {
+    padding: 2em 0;
+}

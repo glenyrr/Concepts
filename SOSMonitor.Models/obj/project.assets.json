@@ -3788,19 +3788,22 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gleny\\.nuget\\packages\\": {}
+    "C:\\Users\\Salomon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkSpace\\Git\\Concepts\\SOSMonitor.Models\\SOSMonitor.Models.csproj",
+      "projectUniqueName": "C:\\Dev\\Concepts\\SOSMonitor.Models\\SOSMonitor.Models.csproj",
       "projectName": "SOSMonitor.Models",
-      "projectPath": "C:\\WorkSpace\\Git\\Concepts\\SOSMonitor.Models\\SOSMonitor.Models.csproj",
-      "outputPath": "C:\\WorkSpace\\Git\\Concepts\\SOSMonitor.Models\\obj\\",
+      "projectPath": "C:\\Dev\\Concepts\\SOSMonitor.Models\\SOSMonitor.Models.csproj",
+      "outputPath": "C:\\Dev\\Concepts\\SOSMonitor.Models\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
+      "files": {
+        "lib/netstandard1.4/SOSMonitor.Models.dll": "C:\\Dev\\Concepts\\SOSMonitor.Models\\bin\\placeholder\\netstandard1.4\\SOSMonitor.Models.dll"
+      },
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {}
@@ -3810,14 +3813,13 @@
     "frameworks": {
       "netstandard1.4": {
         "dependencies": {
+          "NETStandard.Library": {
+            "target": "Package",
+            "version": "1.6.1"
+          },
           "System.Runtime.Serialization.Primitives": {
             "target": "Package",
             "version": "4.3.0"
-          },
-          "NETStandard.Library": {
-            "target": "Package",
-            "version": "1.6.1",
-            "autoReferenced": true
           }
         }
       }

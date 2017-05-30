@@ -20,3 +20,7 @@ C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSMonito
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSMonitor.Models.pdb
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
 C:\WorkSpace\Git\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSMonitor.Models.dll
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\Dev\Concepts\SOSTrucksMonitor.web\bin\Debug\netcoreapp1.1\SOSMonitor.Models.pdb

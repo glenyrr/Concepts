@@ -12,3 +12,10 @@ C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.
 C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.AssemblyInfo.cs
 C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
 C:\WorkSpace\Git\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\Dev\Concepts\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.deps.json
+C:\Dev\Concepts\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\Dev\Concepts\Aspnet.Core.HttpClient\bin\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb
+C:\Dev\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.csprojResolveAssemblyReference.cache
+C:\Dev\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.AssemblyInfo.cs
+C:\Dev\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.dll
+C:\Dev\Concepts\Aspnet.Core.HttpClient\obj\Debug\netcoreapp1.1\Aspnet.Core.RestClient.pdb

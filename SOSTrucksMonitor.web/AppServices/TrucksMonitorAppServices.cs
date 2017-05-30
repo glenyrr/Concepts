@@ -17,7 +17,7 @@ namespace SOSTrucksMonitor.web.AppServices
 
         public async Task<IEnumerable<TruckMonitorDTO>> GetTrucksMonitor()
         {
-            var uri = string.Format("http://localhost:59307/api/v1/trucksmonitor");
+            var uri = string.Format("http://localhost:5000/api/v1/trucksmonitor");
             var trucksMonitor = await _clientRequest.GetList<TruckMonitorDTO>(uri);
             if (trucksMonitor == null)
             {

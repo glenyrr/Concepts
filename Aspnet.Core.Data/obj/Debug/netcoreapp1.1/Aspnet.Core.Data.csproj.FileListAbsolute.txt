@@ -12,3 +12,10 @@ C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.D
 C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.AssemblyInfo.cs
 C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
 C:\WorkSpace\Git\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb
+c:\Dev\Concepts\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.deps.json
+c:\Dev\Concepts\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+c:\Dev\Concepts\Aspnet.Core.Data\bin\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb
+c:\Dev\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.csprojResolveAssemblyReference.cache
+c:\Dev\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.AssemblyInfo.cs
+c:\Dev\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.dll
+c:\Dev\Concepts\Aspnet.Core.Data\obj\Debug\netcoreapp1.1\Aspnet.Core.Data.pdb

@@ -5,3 +5,10 @@ C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.
 C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.dll
 C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.pdb
 C:\WorkSpace\Git\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.csprojResolveAssemblyReference.cache
+C:\Dev\Concepts\SOSMonitor.Models\bin\Debug\netstandard1.4\SOSMonitor.Models.deps.json
+C:\Dev\Concepts\SOSMonitor.Models\bin\Debug\netstandard1.4\SOSMonitor.Models.dll
+C:\Dev\Concepts\SOSMonitor.Models\bin\Debug\netstandard1.4\SOSMonitor.Models.pdb
+C:\Dev\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.csprojResolveAssemblyReference.cache
+C:\Dev\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.AssemblyInfo.cs
+C:\Dev\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.dll
+C:\Dev\Concepts\SOSMonitor.Models\obj\Debug\netstandard1.4\SOSMonitor.Models.pdb
